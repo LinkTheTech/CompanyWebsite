@@ -13,6 +13,10 @@
     color: #edf2f7;
     padding: 0px 10px 0px 40px;
 }
+
+.services>button{
+    color: white;
+}
 #basic-button{
     border: none;
     font-size: 1.2rem;
