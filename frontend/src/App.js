@@ -5,15 +5,15 @@ import Footer from './Section/Footer';
 import Homepage from './Pages/Homepage';
 import ActionAreaCard from './Component/ActionAreaCard';
 import OurServices from './Section/OurServices';
+import ControlledAccordions from './Section/AccordionFAQ';
+
 
 
 function App() {
   return (
     <div className="App">
-
       <Navbar/>
       
-
     </div>
   );
 }

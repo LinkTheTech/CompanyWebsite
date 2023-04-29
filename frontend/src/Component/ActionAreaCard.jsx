@@ -8,10 +8,12 @@ import AccessAlarmsIcon from '@mui/icons-material/AccessAlarms';
 
 export default function ActionAreaCard({title,description,icon}) {
   return (
-    <Card  sx={{ width:"40%",margin:"auto" }}>
+    <Card  sx={{ width:"700px",margin:"auto" }}>
       <CardActionArea>
         <CardContent>
-           <img src={icon} alt="icon" />
+           <div style={{width:"50%"}} >
+           <img width={"100%"}  src={icon} alt="icon" />
+           </div>
           <Typography gutterBottom variant="h5" component="div">
             {title}
           </Typography>

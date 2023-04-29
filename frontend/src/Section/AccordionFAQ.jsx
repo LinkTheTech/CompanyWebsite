@@ -14,7 +14,7 @@ export default function ControlledAccordions() {
     };
 
   return (
-    <div>
+    <div style={{padding:"20px"}} >
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
