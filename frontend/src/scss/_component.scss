@@ -1,6 +1,7 @@
 .component {
-  margin: 0 auto;
-  max-width: 920px;
+  margin: auto;
+  transform: translate(4%);;
+  max-width: 1200px;
   width: 100%;
   background-color: #ffffff;
   background-image: url(../images/bg-pattern-desktop.svg);
@@ -9,4 +10,5 @@
   box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
   border-radius: 23px;
   display: flex;
+  
 }
