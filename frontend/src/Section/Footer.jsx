@@ -8,8 +8,8 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 const Footer = () => {
   return (
-    <div className='mainFooter' >
-      <div className='footerDiv' >
+    <div style={{marginTop:"100px"}} className='mainFooter' >
+      <div  className='footerDiv' >
         <div className='footerTop' >
           <div className='footerFirst' >
             <img src={footerLogo} alt='' />
@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='footerBottom' >
-          All rights reserved to Anonymous Digital
+          All rights reserved to Link the Tech Company
         </div>
       </div>
     </div>

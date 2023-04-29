@@ -5,6 +5,8 @@ import Footer from './Section/Footer';
 import Homepage from './Pages/Homepage';
 import ActionAreaCard from './Component/ActionAreaCard';
 import OurServices from './Section/OurServices';
+import Carousel from './Section/Carousel';
+import AccordionFAQ from './Section/AccordionFAQ';
 
 
 function App() {
@@ -12,8 +14,10 @@ function App() {
     <div className="App">
 
       <Navbar/>
-      
-
+      <Carousel/>
+      <OurServices/>
+     <AccordionFAQ/>
+      <Footer/>
     </div>
   );
 }
